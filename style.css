@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color1: hsla(199, 88%, 87%, 1);
+  --color2: hsla(217, 96%, 81%, 1);
+  --branco: hsla(0, 0%, 100%, 1);
+  --font-family: 'DM Sans', sans-serif;
+  --font-family-h1: 'Montserrat', sans-serif;
+  
+  --font-color: hsla(240, 27%, 28%, 1);
+  --font-color2: hsla(238, 27%, 28%, 0.8);
+
+  font-size: 62.5%;
+}
+
+body {
+  background: linear-gradient(287.56deg, var(--color1), var(--color2));
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  
+  font-size: 1.6rem;
+}
+
+main {
+  background-color: var(--branco);
+  box-shadow: 0rem 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.6rem;
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+  width: min(42.8rem, 90%);
+  margin-top: -12rem;
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}
+
+button {
+  background: #7879f1;
+  color: var(--branco);
+  border-radius: 0px 4px 4px 0px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background .3s;
+}
+
+button:hover {
+  background-color: #6161d3;
+}
+
+body,
+button,
+input {
+  font-family: var(--font-family);
+}
+
+h1 {
+  font-family: var(--font-family-h1);
+  font-weight: 600;
+  font-size: 2.4rem;
+  color: var(--font-color);
+}
+
+p {
+  margin-top: 1.6rem;
+  color: var(--font-color2);
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+input, button{
+  margin-top: 4.8rem;
+  padding: 1.6rem;
+  border: none;
+  height: 5.3rem;
+  font-size: 1.6rem;
+}
+
+input {
+  background-color: hsla(212, 23%, 89%, 1);
+  border-radius: 4px 0px 0px 4px;
+  width: 5.2rem;
+  color: var(--font-color);
+}
+
+
+.screen2 button {
+  border-radius: 4px;
+}
+
+ 
